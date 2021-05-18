@@ -1,0 +1,33 @@
+<clr-main-container>
+  <clr-header>
+    <div class="header-nav" [clr-nav-level]="1">
+      <div class="branding">
+        <span class="title">Admin  Fashion Market</span>
+      </div>
+
+    </div>
+
+  </clr-header>
+  <div class="content-container">
+    <main class="content-area">
+     <app-show-product [products]="products"></app-show-product>
+    </main>
+    <nav class="sidenav" [clr-nav-level]="2" style="width: 12%  !important">
+
+        <section class="sidenav-content">
+
+          <a class="nav-link active">Products</a>
+
+          <a class="nav-link">Catégories</a>
+
+          <a class="nav-link">Orders</a>
+
+          <a class="nav-link">Customers</a>
+
+
+
+        </section>
+
+    </nav>
+  </div>
+</clr-main-container>

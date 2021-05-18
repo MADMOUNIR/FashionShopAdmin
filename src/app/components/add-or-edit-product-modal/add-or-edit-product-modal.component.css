@@ -1,0 +1,12 @@
+
+.card.clickable.active {
+  box-shadow: 0 .5rem 0 0 green;
+  border: 5px solid green;
+}
+.card-text {
+  text-align: center;
+}
+
+.input-width {
+width: 300px;
+}
